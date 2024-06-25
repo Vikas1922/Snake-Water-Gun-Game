@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 100%;
+    height: 100%; */
+    background-color: #90b4e17d;
+    font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+    text-align: center;
+    padding: 16px 0px;
+    color: red;
+    font-size: 35px;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 340px;
+   
+    
+}
+
+.img{
+    
+    width: 250px;
+    height: 166px;
+    transition: 1s;
+    box-shadow: 0px 0px 7px 1px #90b4e17d;
+}
+
+.snakeImg{
+    box-shadow: 0px 0px 7px 1px yellowgreen;
+}
+
+.gunImg{
+    box-shadow: 0px 0px 7px 1px orange;
+}
+
+.img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.h4{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 23px;
+}
+
+#dashboard{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+   
+
+}
+
+.font_size{
+    font-size: 34px;
+}
+
+#userChance{
+    border: 1px solid;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 68px;
+}
+
+
+
+.askUserToPlay, .askUserToPlay1{
+    /* border: 1px solid black; */
+    display: none;
+    
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+   height: 106%;
+    background-color: #00000047;
+    z-index: 1;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000b5;
+}
+
+.btn, .btn1{
+    width: 220px;
+    height: 53px;
+    background-color: #50ed50;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 6px 0px #00000096;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: "Tiny5", sans-serif;
+}
+
+.btn:hover , .btn1:hover{
+    background-color: #72c772e0;  
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 2px 9px 0px limegreen;
+    
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* border: 1px solid; */
+    height: 40px;
+
+}
+
+.copyright p{
+    font-size: 16px;
+    font-family: auto;
+}

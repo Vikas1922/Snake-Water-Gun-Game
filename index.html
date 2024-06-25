@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake, Water & Gun Game! - Enjoy! if you still young</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Tiny5&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="d-h askUserToPlay">
+      <button class="btn btn-h">Play Again!</button>
+    </div>
+    <div class="d-flex askUserToPlay1">
+      <h2
+        style="
+          color: white;
+          font-size: 30px;
+          font-family: 'Courier New', Courier, monospace;
+          text-align: center;
+        "
+      >
+        Instruction regarding game!
+      </h2>
+      <br />
+      <br />
+      <p
+        style="
+          color: white;
+          font-size: 20px;
+          font-family: 'Courier New', Courier, monospace;
+          padding: 0px 20px;
+        "
+      >
+        1. In Snake, Water and Gun game you want to select one of them option
+        and other side computer will select, after selecting the options game
+        will decide who was the winner.
+      </p>
+      <br />
+      <br />
+      <p
+        style="
+          color: white;
+          font-size: 20px;
+          font-family: 'Courier New', Courier, monospace;
+          padding: 0px 20px;
+        "
+      >
+        2. The result is shown below the options.
+      </p>
+      <br />
+      <br />
+      <p
+        style="
+          color: white;
+          font-size: 20px;
+          font-family: 'Courier New', Courier, monospace;
+          padding: 0px 20px;
+        "
+      >
+        3. You have only 10 chances to choose the options, after that you have
+        to play again.
+      </p>
+      <br />
+      <br />
+      <br />
+      <button class="btn1">Enjoy!</button>
+    </div>
+    <h1>Welcome!-Choose if you have dare to win!</h1>
+
+    <div id="container">
+      <div class="row">
+        <img src="snake.jpg" alt="snake image" class="img snakeImg" />
+        <h4 class="h4" style="color: yellowgreen">Snake</h4>
+      </div>
+      <div class="row">
+        <img src="water.jpg" alt="water image" class="img" />
+        <h4 class="h4" style="color: deepskyblue">Water</h4>
+      </div>
+      <div class="row">
+        <img src="gun.jpg" alt="gun image" class="img gunImg" />
+        <h4 class="h4">Gun</h4>
+      </div>
+    </div>
+
+    <div id="dashboard">
+      <div class="dash_row">
+        <h4 class="font_size">User -<span class="turns1 noOfTurn">0</span></h4>
+      </div>
+      <div class="dash_row">
+        <h4 class="font_size">
+          Computer -<span class="turns2 noOfTurn">0</span>
+        </h4>
+      </div>
+      <div class="dash_row">
+        <h4 class="font_size">
+          Game Tie -<span class="turns3 noOfTurn">0</span>
+        </h4>
+      </div>
+    </div>
+
+    <div id="userChance">
+      <h1>You have <span class="ch">10 </span>chances</h1>
+    </div>
+
+    <div class="copyright">
+      <p>&#169; copyright 2024</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
